@@ -12,7 +12,7 @@ class movie_booking{
         System.out.println("3.Avengers:Infinity War");
         System.out.print("Please select a movie: ");
         int choice = sc.nextInt();
-        sc.nextLine(); // Consume the newline character
+        sc.nextLine(); 
         if (choice == 1){
             System.out.println("You have selected Avengers:Endgame");
             System.out.println("Available show times are: 10:00 AM, 2:00 PM, 6:00 PM");
